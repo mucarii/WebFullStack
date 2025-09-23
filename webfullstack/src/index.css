@@ -1,0 +1,106 @@
+/* Layout base */
+body {
+  background: #0f1220;           /* fundo escuro elegante */
+  color: #e6e8f2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* Cartões */
+.card {
+  background: #d9dae4;
+  border: 1px solid rgba(255,255,255,.08);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+  border-color: rgba(99,102,241,.4); /* roxinho */
+}
+
+.card-img-top {
+  height: 200px;       /* altura padrão */
+  object-fit: cover;   /* preenche mantendo proporção */
+}
+
+
+/* Títulos e badges */
+.card-title {
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+.badge {
+  border: 1px solid rgba(255,255,255,.15);
+}
+
+/* Form */
+.form-label {
+  color: #b8bade;
+}
+.form-control {
+  background: #0f1220;
+  color: #e6e8f2;
+  border: 1px solid rgba(255,255,255,.12);
+}
+.form-control:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 .2rem rgba(99,102,241,.25);
+}
+
+/* Botões */
+.btn {
+  font-weight: 600;
+  border-radius: 12px;
+}
+.btn-primary {
+  background: linear-gradient(180deg,#6366f1,#4f46e5);
+  border: none;
+}
+.btn-primary:focus,
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+/* Toggle buttons */
+.btn-outline-primary, .btn-outline-secondary {
+  color: #e6e8f2;
+  border-color: rgba(255,255,255,.18);
+  background: #111425;
+}
+.btn-outline-primary.active,
+.btn-outline-secondary.active {
+  background: #2a2f47;
+  border-color: #6366f1;
+}
+
+/* Alerts */
+.alert {
+  background: #1a1e33;
+  color: #e2e4f8;
+  border-color: rgba(255,255,255,.12);
+}
+
+/* Espaçamentos */
+.section {
+  margin-bottom: 2rem;
+}
+
+/* Footer simples */
+.app-footer {
+  margin-top: 48px;
+  padding: 24px 0;
+  color: #a8abcf;
+  font-size: .9rem;
+  border-top: 1px solid rgba(255,255,255,.08);
+  text-align: center;
+}
