@@ -1,7 +1,7 @@
 #  Sports Explorer - Projeto Web FullStack
 
 Aplicação desenvolvida para a disciplina **Programação Web FullStack**.  
-Consiste em uma **SPA (Single Page Application)** feita em **React.js**, consumindo uma **API JSON aberta**, utilizando **React-Bootstrap** e gerenciamento de estado com **useReducer + Context API**.
+Consiste em uma **SPA (Single Page Application)** feita em **React.js**, consumindo uma **API JSON aberta**, utilizando **React-Bootstrap** e gerenciamento de estado com **useReducer**.
 
 ---
 
@@ -15,22 +15,22 @@ Consiste em uma **SPA (Single Page Application)** feita em **React.js**, consumi
 - Murilo Luiz Calore Ritto  
 
 ** Hook / funcionalidade do React.js implementada:**  
-- `useReducer` + Context API  
+- `useReducer`
 
 ** API JSON utilizada:**  
 - [TheSportsDB](https://www.thesportsdb.com/api.php)
 
 ---
 
-## 🚀 Tecnologias
+##  Tecnologias
 - React.js + Vite  
 - React-Bootstrap  
-- Context API + useReducer  
+- Context API  
 - TheSportsDB API  
 
 ---
 
-## 🛠️ Como executar localmente
+##  Como executar localmente
 
 Clone este repositório:
 ```bash
