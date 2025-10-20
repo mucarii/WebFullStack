@@ -9,7 +9,7 @@ Consiste em uma **SPA (Single Page Application)** feita em **React.js**, consumi
 [https://github.com/mucarii/WebFullStack](https://github.com/mucarii/WebFullStack)
 
 ** Deploy no GitHub Pages:**  
-[https://mucarii.github.io/WebFullStack/](https://mucarii.github.io/WebFullStack/)
+[https://web-full-stack-sportdb.vercel.app/](https://web-full-stack-sportdb.vercel.app/)
 
 ** Membros do grupo:**  
 - Murilo Luiz Calore Ritto  
