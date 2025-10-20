@@ -1,6 +1,6 @@
 // src/contexts/useApp.js
 import { useContext } from "react";
-import { AppContext } from "./appContextObject";
+import { AppContext } from "./AppContextObject";
 
 export function useApp() {
   const ctx = useContext(AppContext);
