@@ -1,6 +1,6 @@
 // src/contexts/AppProvider.jsx
 import { useReducer } from "react";
-import { AppContext } from "./appContextObject";
+import { AppContext } from "./AppContextObject";
 import { appReducer, initialState } from "./appReducer";
 
 export default function AppProvider({ children }) {
